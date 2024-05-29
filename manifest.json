@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Sign Out Confirm",
   "version": "1.0",
-  "description": "Asks for confirmation before signing out of YouTube.",
+  "description": "Asks for confirmation before signing out of YouTube (when you click the "Sign out" button)",
   "permissions": [
     "tabs",
     "activeTab",

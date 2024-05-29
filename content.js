@@ -1,11 +1,9 @@
 function mouseDownHandler(event) {
-    console.log('Mouse down event triggered before others');
     if (!window.confirm("Do you really want to sign out?")) {
         event.preventDefault();
         event.stopPropagation();
         return;
     } else {
-        console.log("byee");
         location.replace("/logout");
     }
 }

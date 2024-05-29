@@ -16,8 +16,8 @@ function onLoad(event) {
     }
 }
 
-document.addEventListener("DOMContentLoaded", onload);
-document.addEventListener("load", onload);
+document.addEventListener("DOMContentLoaded", onLoad);
+document.addEventListener("load", onLoad);
 
 // Function to add the event listener to the sign out element
 function addClickListener(signoutEl, eventType) {
